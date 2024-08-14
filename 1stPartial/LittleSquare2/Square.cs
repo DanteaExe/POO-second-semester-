@@ -42,7 +42,7 @@ namespace LittleSquare2
                         Write("  ");
                     }
                 }
-                Console.WriteLine();
+                WriteLine();
             }
         }
 
