@@ -1,0 +1,15 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/bin/Debug/net8.0/GetSetVehicle
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/bin/Debug/net8.0/GetSetVehicle.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/bin/Debug/net8.0/GetSetVehicle.runtimeconfig.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/bin/Debug/net8.0/GetSetVehicle.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/bin/Debug/net8.0/GetSetVehicle.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/refint/GetSetVehicle.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/GetSetVehicle.genruntimeconfig.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GetSetVehicle/obj/Debug/net8.0/ref/GetSetVehicle.dll
