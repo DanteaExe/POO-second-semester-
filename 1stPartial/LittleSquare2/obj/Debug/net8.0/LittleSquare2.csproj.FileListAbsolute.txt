@@ -1,0 +1,15 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/bin/Debug/net8.0/LittleSquare2
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/bin/Debug/net8.0/LittleSquare2.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/bin/Debug/net8.0/LittleSquare2.runtimeconfig.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/bin/Debug/net8.0/LittleSquare2.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/bin/Debug/net8.0/LittleSquare2.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/refint/LittleSquare2.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/LittleSquare2.genruntimeconfig.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/LittleSquare2/obj/Debug/net8.0/ref/LittleSquare2.dll
