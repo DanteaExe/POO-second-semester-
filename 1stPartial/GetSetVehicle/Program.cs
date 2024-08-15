@@ -42,12 +42,12 @@ bicycle.SetMaxKMPerHour(intvelocity);
 WriteLine("Write the number of wheels of the vehicle: ");
 string? wheels = ReadLine();
 int intwheels = int.Parse(wheels!);
-bicycle.SetMaxKMPerHour(intwheels);
+bicycle.SetNumOfWheels(intwheels);
 
 WriteLine("Write the number of passengers of the vehicle: ");
 string? passengers = ReadLine();
 int intpassengers = int.Parse(passengers!);
-bicycle.SetMaxKMPerHour(intpassengers);
+bicycle.SetNumOfPassengers(intpassengers);
 
 WriteLine("Set if is robbed or not (do not ask anything xd just... set it)");
 bicycle.IsRobbed = false;
@@ -138,8 +138,8 @@ dante.LivingCountry = livingcountry;
 
 WriteLine("Write the phone number's person: ");
 string? phoneNumber = ReadLine();
-int intphoneNumber = int.Parse(phoneNumber!);
-dante.SetPhoneNumber(intphoneNumber);
+long longphoneNumber = long.Parse(phoneNumber!);
+dante.SetPhoneNumber(longphoneNumber);
 
 WriteLine("Write the favorite sport: ");
 string? favoritesport = ReadLine();
@@ -155,6 +155,9 @@ dante.SetEmail(email!);
 WriteLine("Write the favorite song: ");
 string? favoritesong = ReadLine();
 dante.FavoriteSong = favoritesong;
+
+WriteLine();
+WriteLine();
 
 WriteLine($"Person's name: {dante.GetName()}");
 WriteLine($"Person's age: {dante.GetAge()}");
@@ -246,6 +249,9 @@ WriteLine("Write the computer nits: ");
 string? nits = ReadLine();
 int intnits = int.Parse(nits!);
 macbookair.SetNits(intnits);
+
+WriteLine();
+WriteLine();
 
 WriteLine($"The motherboard is: {macbookair.MotherBoard}");
 WriteLine($"Is gamer: {macbookair.IsGamer}");

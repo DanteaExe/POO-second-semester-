@@ -14,7 +14,7 @@ namespace GetSetPerson
         public string? Hobbie { get; set; }
         public string? BornCountry { get; set; }
         public string? LivingCountry { get; set; }
-        private int PhoneNumber { get; set; }
+        private long PhoneNumber { get; set; }
         public string? FavoriteSport { get; set; }
         public bool HasTraveled { get; set; }
         private string? Email { get; set; }
@@ -89,11 +89,11 @@ namespace GetSetPerson
             }
         }
 
-        public int GetPhoneNumber()
+        public long GetPhoneNumber()
         {
             return PhoneNumber;
         }
-        public void SetPhoneNumber(int phonenumber)
+        public void SetPhoneNumber(long phonenumber)
         {
             PhoneNumber = phonenumber;
         }
