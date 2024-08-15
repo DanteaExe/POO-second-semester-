@@ -1,7 +1,8 @@
 ﻿using static System.Console;
 using GetSetVehicle;
+using GetSetPerson;
 
-#region first object
+#region Vehicle object
 
 Vehicle bicycle = new();
 
@@ -83,6 +84,87 @@ WriteLine($"Is tuned: {bicycle.IsTuned}");
 WriteLine($"Fabrication country: {bicycle.GetFabricationCountry()}");
 WriteLine($"Is private: {bicycle.IsPrivate}");
 WriteLine($"Category: {bicycle.GetCategory()}");
+
+#endregion
+
+WriteLine();
+WriteLine();
+
+#region Person Object
+
+Person dante = new();
+
+WriteLine("Write the person's name: ");
+string? personName = ReadLine();
+dante.SetName(personName!);
+
+WriteLine("Write the person's age: ");
+string? personAge = ReadLine();
+int intAge = int.Parse(personAge!);
+dante.SetAge(intAge);
+
+WriteLine("Write the person's hair color: ");
+string? personHairColor = ReadLine();
+dante.SetHairColor(personHairColor!);
+
+WriteLine("Write the person's RFC: ");
+string? rfc = ReadLine();
+dante.SetRFC(rfc!);
+
+WriteLine($"Write the person's school level: ");
+string? schoolLevel = ReadLine();
+dante.SetSchoolLevel(schoolLevel!);
+
+WriteLine("Write W if is a woman or M if is a man: ");
+string? sex = ReadLine();
+char charSex = char.Parse(sex!);
+dante.SetSex(charSex);
+
+WriteLine("Set if is married or not: ");
+dante.IsMarried = false;
+
+WriteLine("Set his/her hobbie: ");
+dante.Hobbie = "Play videogames";
+
+WriteLine("Set his/her born country: ");
+dante.BornCountry = "Mexico";
+
+WriteLine("Set his/her living country: ");
+dante.LivingCountry = "Mexico";
+
+WriteLine("Write the phone number's person: ");
+string? phoneNumber = ReadLine();
+int intphoneNumber = int.Parse(phoneNumber!);
+dante.SetPhoneNumber(intphoneNumber);
+
+WriteLine("Set the favorite sport: ");
+dante.FavoriteSport = "Bicycling";
+
+WriteLine("Set if has traveled or not: ");
+dante.HasTraveled = true;
+
+WriteLine("Write person's email: ");
+string? email = ReadLine();
+dante.SetEmail(email!);
+
+WriteLine("Set the favorite song: ");
+dante.FavoriteSong = "Lucky";
+
+WriteLine($"Person's name: {dante.GetName()}");
+WriteLine($"Person's age: {dante.GetAge()}");
+WriteLine($"Person's hair color: {dante.GetHairColor()}");
+WriteLine($"Person's RFC: {dante.GetRFC()}");
+WriteLine($"Person's school level: {dante.GetSchoolLevel()}");
+WriteLine($"Person's age: {dante.GetSex()}");
+WriteLine($"Is married: {dante.IsMarried}");
+WriteLine($"Person's hbbie: {dante.Hobbie}");
+WriteLine($"Person's born cuntry: {dante.BornCountry}");
+WriteLine($"Person's living country: {dante.LivingCountry}");
+WriteLine($"Person's phone number: {dante.GetPhoneNumber()}");
+WriteLine($"Person's favorite sport: {dante.FavoriteSport}");
+WriteLine($"Has traveled: {dante.HasTraveled}");
+WriteLine($"Person's emaial: {dante.GetEmail()}");
+WriteLine($"Person's favorite song: {dante.FavoriteSong}");
 
 #endregion
 
