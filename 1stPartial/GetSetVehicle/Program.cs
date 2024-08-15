@@ -1,6 +1,7 @@
 ﻿using static System.Console;
 using GetSetVehicle;
 using GetSetPerson;
+using GetSetComputer;
 
 #region Vehicle object
 
@@ -176,3 +177,90 @@ WriteLine($"Person's favorite song: {dante.FavoriteSong}");
 WriteLine();
 WriteLine();
 
+#region Computer Object
+
+Computer macbookair = new();
+
+WriteLine("Write the motherboard that it has: ");
+string? motherboard = ReadLine();
+macbookair.MotherBoard = motherboard;
+
+WriteLine("Set if is gamer or not: ");
+macbookair.IsGamer = false;
+
+WriteLine("Write the ram it has in GB: ");
+string? ram = ReadLine();
+int intram = int.Parse(ram!);
+macbookair.SetRam(intram);
+
+WriteLine("Write how many hard drives you have: ");
+string? harddrive = ReadLine();
+int intharddrive = int.Parse(harddrive!);
+macbookair.SetHardDriveAmount(intharddrive);
+
+WriteLine("Write what GPU has: ");
+string? gpu = ReadLine();
+macbookair.GPU = gpu;
+
+WriteLine("Write in Mili ampers the battery: ");
+string? baterry = ReadLine();
+int intbattery = int.Parse(baterry!);
+macbookair.SetBattery(intbattery);
+
+WriteLine("Write the cooling type the computer has: ");
+string? coolingtype = ReadLine();
+macbookair.CoolingType = coolingtype;
+
+WriteLine("Write the release year: ");
+string? releaseyear = ReadLine();
+int intreleaseyear = int.Parse(releaseyear!);
+macbookair.SetReleaseYear(intreleaseyear);
+
+WriteLine("Write the brand: ");
+string? brand = ReadLine();
+macbookair.Brand = brand;
+
+WriteLine("Set if is expsensive: ");
+macbookair.IsExpensive = true;
+
+WriteLine("Write the inches of the computer: ");
+string? inches  = ReadLine();
+double intinches = double.Parse(inches!);
+macbookair.SetInches(intinches);
+
+WriteLine("Write the cost int MX pesos of the computer: ");
+string? cost  = ReadLine();
+double intcost = double.Parse(cost!);
+macbookair.SetCost(intcost);
+
+WriteLine("Write the ports number: ");
+string? portsnumber = ReadLine();
+int intportsnumber = int.Parse(portsnumber!);
+macbookair.SetPortsNumber(intportsnumber);
+
+WriteLine("Write the CPU you have: ");
+string? cpu = ReadLine();
+macbookair.CPU = cpu;
+
+WriteLine("Write the computer nits: ");
+string? nits = ReadLine();
+int intnits = int.Parse(nits!);
+macbookair.SetNits(intnits);
+
+WriteLine($"The motherboard is: {macbookair.MotherBoard}");
+WriteLine($"Is gamer: {macbookair.IsGamer}");
+WriteLine($"RAM: {macbookair.GetRam()}");
+WriteLine($"Hard drive amount: {macbookair.GetHardDriveAmount()}");
+WriteLine($"GPU: {macbookair.GPU}");
+WriteLine($"Battery: {macbookair.GetBattery()}");
+WriteLine($"Cooling type: {macbookair.CoolingType}");
+WriteLine($"Release year: {macbookair.GetReleaseYear()}");
+WriteLine($"Brand: {macbookair.Brand}");
+WriteLine($"Is expensive: {macbookair.IsExpensive}");
+WriteLine($"Inches: {macbookair.GetInches()}");
+WriteLine($"Cost: {macbookair.GetCost()}");
+WriteLine($"Ports number: {macbookair.GetPortsNumber()}");
+WriteLine($"CPU: {macbookair.CPU}");
+WriteLine($"Nits: {macbookair.GetNits()}");
+
+#endregion
