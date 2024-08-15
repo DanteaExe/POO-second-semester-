@@ -5,13 +5,13 @@ namespace LittleSquare2
     class Square
     {
         public readonly int SIZE;
-        private int x;
-        private int y;
+        private int X { get; set;}
+        private int Y{ get; set;}
 
         public Square(int initialX, int initialY, int size)
         {
-            x = initialX;
-            y = initialY;
+            X = initialX;
+            Y = initialY;
             SIZE = size;
         }
 
@@ -19,14 +19,14 @@ namespace LittleSquare2
         {
             Clear();
 
-            for (int i = 0; i < y; i++)
+            for (int i = 0; i < Y; i++)
             {
                 WriteLine();
             }
 
             for (int i = 0; i < SIZE; i++)
             {
-                for (int j = 0; j < x; j++)
+                for (int j = 0; j < X; j++)
                 {
                     Write(" ");
                 }
@@ -51,27 +51,27 @@ namespace LittleSquare2
             switch (inputKey)
             {
                 case 'a':
-                    if (x > 0)
+                    if (X > 0)
                     {
-                        x--;
+                        X--;
                     }
                     break;
                 case 'd':
-                    if (x < 80 - SIZE)
+                    if (X < 80 - SIZE)
                     {
-                        x++;
+                        X++;
                     }
                     break;
                 case 'w':
-                    if (y > 0)
+                    if (Y > 0)
                     {
-                        y--;
+                        Y--;
                     }
                     break;
                 case 's':
-                    if (y < 24 - SIZE)
+                    if (Y < 24 - SIZE)
                     {
-                        y++;
+                        Y++;
                     }
                     break;
                 default:
