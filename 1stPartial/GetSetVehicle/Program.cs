@@ -123,22 +123,26 @@ dante.SetSex(charSex);
 WriteLine("Set if is married or not: ");
 dante.IsMarried = false;
 
-WriteLine("Set his/her hobbie: ");
-dante.Hobbie = "Play videogames";
+WriteLine("write his/her hobbie: ");
+string? hobbie = ReadLine(); 
+dante.Hobbie = hobbie;
 
-WriteLine("Set his/her born country: ");
-dante.BornCountry = "Mexico";
+WriteLine("Write his/her born country: ");
+string? borncountry = ReadLine();
+dante.BornCountry = borncountry;
 
-WriteLine("Set his/her living country: ");
-dante.LivingCountry = "Mexico";
+WriteLine("Write his/her living country: ");
+string? livingcountry = ReadLine();
+dante.LivingCountry = livingcountry;
 
 WriteLine("Write the phone number's person: ");
 string? phoneNumber = ReadLine();
 int intphoneNumber = int.Parse(phoneNumber!);
 dante.SetPhoneNumber(intphoneNumber);
 
-WriteLine("Set the favorite sport: ");
-dante.FavoriteSport = "Bicycling";
+WriteLine("Write the favorite sport: ");
+string? favoritesport = ReadLine();
+dante.FavoriteSport = favoritesport;
 
 WriteLine("Set if has traveled or not: ");
 dante.HasTraveled = true;
@@ -147,8 +151,9 @@ WriteLine("Write person's email: ");
 string? email = ReadLine();
 dante.SetEmail(email!);
 
-WriteLine("Set the favorite song: ");
-dante.FavoriteSong = "Lucky";
+WriteLine("Write the favorite song: ");
+string? favoritesong = ReadLine();
+dante.FavoriteSong = favoritesong;
 
 WriteLine($"Person's name: {dante.GetName()}");
 WriteLine($"Person's age: {dante.GetAge()}");
