@@ -1,0 +1,15 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/GuitarHero
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/GuitarHero.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/GuitarHero.runtimeconfig.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/GuitarHero.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/GuitarHero.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/refint/GuitarHero.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.genruntimeconfig.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/ref/GuitarHero.dll
