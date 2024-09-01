@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OyvVP5I+WxR0supkgo4VsK/BDPlYmFLYaRxKEM5QoInwr/YmxY68d/qUn5zZFPneV/dc0KWjKylUrKd3uBmoNg==",
+  "dgSpecHash": "KtvrtKiUDTSgk447vryA1nvm3jcROXfopCJAr4hUReIuEbDXITDaRGSUCqE3bIMISUpm8jhfokKLgr8HuraI0w==",
   "success": true,
   "projectFilePath": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/GuitarHero.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/dantealejo/.nuget/packages/vlc.dotnet.core/3.1.0/vlc.dotnet.core.3.1.0.nupkg.sha512",
+    "/Users/dantealejo/.nuget/packages/vlc.dotnet.core.interops/3.1.0/vlc.dotnet.core.interops.3.1.0.nupkg.sha512",
+    "/Users/dantealejo/.nuget/packages/vlc.dotnet.forms/3.1.0/vlc.dotnet.forms.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
