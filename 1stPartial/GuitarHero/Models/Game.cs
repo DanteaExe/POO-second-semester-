@@ -4,7 +4,9 @@ using static System.Threading.Thread;
 namespace GuitarHero.Models
 {
     /// <summary>
-    /// Class <c>Game</c> class to handle all related to the game
+    /// Class <c>Game</c> class to handle all related to the game.
+    /// Something important to say: the distributions of notes are never the same
+    /// because are generated randomly, that means that songs are not repetitive. 
     /// </summary>
     public class Game : DrawInConsole
     {
@@ -32,17 +34,18 @@ namespace GuitarHero.Models
 
                 map.Guitar();
                 map.AreaDelimiter();
-
+                //collocates notes in their specific Y position
                 int y = Note.GetYPosition(notesGenerated[currentNoteIndex]);
-
+                //display generated notes
                 map.WriteAt(notesGenerated[currentNoteIndex], i, y);
 
                 if (KeyAvailable)
                 {
+                    //read the input from the user
                     ConsoleKeyInfo keyInfo = ReadKey(true);
                     string keyPressed = keyInfo.Key.ToString();
-
-                    if (keyPressed.Equals(notesGenerated[currentNoteIndex], StringComparison.OrdinalIgnoreCase)
+                    //verify if the inpit is a valid note with the dictionary, so score increases
+                    if (note.GetNotes().ContainsValue(keyPressed)
                      && i >= map.GetMapStartX()+1 && i <= map.GetMapEndX()-1)
                     {
                         map.Score++;

@@ -6,13 +6,20 @@ namespace GuitarHero.Models
     public class Note
     {
         readonly private Random rnd = new();
-        private static readonly Dictionary<int, string> notes = new(){
+        private readonly Dictionary<int, string> notes = new(){
             {1, "Q"},
             {2, "W"},
             {3, "E"},
             {4, "R"},
             {5, "T"}
-        };
+        };       
+        /// <summary>
+        /// Method <c>GetNotes</c> Getter for dictionary
+        /// </summary>
+        public Dictionary<int, string> GetNotes()
+        {
+            return notes;
+        }
         /// <summary>
         /// Method <c>GenerateRandomNote</c> receive a dictionary to return a random note
         /// </summary> 
