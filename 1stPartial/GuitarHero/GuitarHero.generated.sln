@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuitarHero", "GuitarHero.csproj", "{C75811CE-B56E-4566-A109-F2BA53E76A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuitarHero", "GuitarHero.csproj", "{656C7E51-8E87-4970-87DA-5420F0F59203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C75811CE-B56E-4566-A109-F2BA53E76A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C75811CE-B56E-4566-A109-F2BA53E76A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C75811CE-B56E-4566-A109-F2BA53E76A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C75811CE-B56E-4566-A109-F2BA53E76A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656C7E51-8E87-4970-87DA-5420F0F59203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656C7E51-8E87-4970-87DA-5420F0F59203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656C7E51-8E87-4970-87DA-5420F0F59203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656C7E51-8E87-4970-87DA-5420F0F59203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

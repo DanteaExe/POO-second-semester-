@@ -6,7 +6,7 @@ Game game = new();
 
 
 Clear();
-game.Play();
+game.PlaySong();
 map.Guitar();
 map.AreaDelimiter();
 WriteLine();

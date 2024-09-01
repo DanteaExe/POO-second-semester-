@@ -23,6 +23,11 @@ namespace GuitarHero.Models
             }
             catch (ArgumentOutOfRangeException)
             {
+                /*
+                    there can not be a negative y position, so it starts until y
+                    is not negative, now i use it like a counter, but i have
+                    to handle this so notes can be display with no errors :D.
+                */
                 Clear();
                 WriteLine($"Game starts in: {-y}");
             }
