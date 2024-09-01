@@ -6,25 +6,33 @@ namespace GuitarHero.Models
     public class Map : DrawInConsole
     {
 
-        private readonly int MAPSTARTY = 16;
-        private readonly int MAPENDY = 21;
-        private readonly int MAPENDX = 58;
+        private readonly int MAPSTARTY = 1;
+        private readonly int MAPENDY = 16;
+        private readonly int MAPSTARTX = 100;
+        private readonly int MAPENDX = 117;
         /// <summary>
-        /// Method <c>GetMapStart</c> gets where the valid area starts(in y) start: 16
+        /// Method <c>GetMapStart</c> gets where the valid area starts(in y+1) start: 2
         /// </summary>
         public int GetMapStartY()
         {
             return MAPSTARTY;
         }
         /// <summary>
-        /// Method <c>GetMapEnd</c> gets where the valid area finishes(in y) end: 21
+        /// Method <c>GetMapEnd</c> gets where the valid area finishes(in y-1) end: 16
         /// </summary>
         public int GetMapEndY()
         {
             return MAPENDY;
         }
         /// <summary>
-        /// Method <c>GetMapEnd</c> gets where the valid area finishes(in x) end: 58
+        /// Method <c>GetMapEnd</c> gets where the valid area starts(in x+1) start: 101
+        /// </summary>
+        public int GetMapStartX()
+        {
+            return MAPSTARTX;
+        }
+        /// <summary>
+        /// Method <c>GetMapEnd</c> gets where the valid area finishes(in x) start: 117
         /// </summary>
         public int GetMapEndX()
         {
@@ -32,16 +40,16 @@ namespace GuitarHero.Models
         }
         /// <summary>
         /// Method <c>AreaDelimiter</c> draws the delimiter where notes are valid.
-        /// IMPORTANT, 21 is the map limit-and it starts at 16.
+        /// IMPORTANT, 16 is the map limit-and it starts at 2. in y
         /// </summary>
         public void AreaDelimiter()
         {
-            WriteAt("+----------------------------------------------------------+", 0, MAPSTARTY);
-            WriteAt("|                                                          |", 0, 17);
-            WriteAt("|                                                          |", 0, 18);
-            WriteAt("|                                                          |", 0, 19);
-            WriteAt("|                                                          |", 0, 20);
-            WriteAt("+----------------------------------------------------------+", 0, MAPENDY);
+            WriteAt("+-----------------+", MAPSTARTX, MAPSTARTY);
+            for (int i = 2; i < 16; i++)
+            {
+                WriteAt("|                 |", MAPSTARTX, i);
+            }
+            WriteAt("+-----------------+", MAPSTARTX, MAPENDY);
         }
 
         /// <summary>
@@ -49,9 +57,10 @@ namespace GuitarHero.Models
         /// </summary>
         public void Guitar()
         {
-            for (int i = 0; i < 16; i++)
+            for (int i = 20; i < 100; i++)
             {
-                WriteAt("|                                                          |", 0, i);
+                WriteAt("-", i, 1); 
+                WriteAt("-", i, 16);
             }
         }
     }

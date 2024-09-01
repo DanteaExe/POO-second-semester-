@@ -30,7 +30,7 @@ namespace GuitarHero.Models
             {
                 map.Guitar();
                 map.AreaDelimiter();
-                map.WriteAt("Q", i, 5);
+                map.WriteAt("Q", 101, 15);
                 Sleep(1000);//seconds
                 Clear();
             }
