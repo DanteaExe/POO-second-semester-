@@ -1,4 +1,4 @@
-namespace GuitarHero.Models
+namespace GuitarHero.Controllers
 {
     /// <summary>
     /// Class <c>Map</c> creates the videogame map and area delimiters

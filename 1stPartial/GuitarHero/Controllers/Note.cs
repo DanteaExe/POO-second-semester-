@@ -1,11 +1,11 @@
-namespace GuitarHero.Models
+namespace GuitarHero.Controllers
 {
     /// <summary>
     /// Class <c>Note</c> class to generate notes
     /// </summary>
     public class Note
     {
-        readonly private Random rnd = new();
+        private readonly Random rnd = new();
         private readonly Dictionary<int, string> notes = new(){
             {1, "Q"},
             {2, "W"},

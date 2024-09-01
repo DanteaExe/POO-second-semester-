@@ -1,6 +1,6 @@
 using static System.Console;
 
-namespace GuitarHero.Models
+namespace GuitarHero.Controllers
 {
     /// <summary>
     /// Class <c>DrawInConsole</c> With SetCursorPosition set the position of the cursor.

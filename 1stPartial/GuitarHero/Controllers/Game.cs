@@ -1,7 +1,7 @@
 using static System.Console;
 using static System.Threading.Thread;
 
-namespace GuitarHero.Models
+namespace GuitarHero.Controllers
 {
     /// <summary>
     /// Class <c>Game</c> class to handle all related to the game.
@@ -49,13 +49,15 @@ namespace GuitarHero.Models
                      && i >= map.GetMapStartX()+1 && i <= map.GetMapEndX()-1)
                     {
                         map.Score++;
+                        //make note "disapear"
                         map.WriteAt(" ", i, y);
                         currentNoteIndex++;
+                        //note starts appearing at: 
                         i = 5;
                     }
                 }
                 i++;
-                Sleep(50); // in MS
+                Sleep(50); // in MS, basically how hard is this motherfucker
                 Clear();
             }
         }
