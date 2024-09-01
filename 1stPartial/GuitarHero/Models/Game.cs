@@ -17,23 +17,33 @@ namespace GuitarHero.Models
             {4, "R"},
             {5, "T"}
         };
-        private static string[] notesGenerated = [];
+        private static readonly int notesPerLevel = 20;
+        private static readonly string[] notesGenerated = new string[notesPerLevel];
         /// <summary>
         /// Method <c>Play</c> Play a song and start playing
         /// </summary>
         public void PlaySong()
         {
-            string noteGen = note.GenerateRandomNote(notes);
-            for (int i = 0; i < map.GetMapEndY(); i++)
+            GenerateNotes();
+            //for to display notes
+            for (int i = 0; i < 35; i++)
             {
                 map.Guitar();
                 map.AreaDelimiter();
-                map.WriteAt(noteGen, 8, i);
-                map.WriteAt(note.GenerateRandomNote(notes), 16, i - 3);
-                map.WriteAt(note.GenerateRandomNote(notes), 20, i - 12);
-                map.WriteAt(note.GenerateRandomNote(notes), 58, i - 3);
-                Sleep(1000); //seconds
+                map.WriteAt("Q", i, 5);
+                Sleep(1000);//seconds
                 Clear();
+            }
+        }
+        /// <summary>
+        /// Method <c>GenerateNotes</c> we generate a single note to display. Do not ask why goes here 
+        /// and not in Note class xd
+        /// </summary>
+        private void GenerateNotes()
+        {
+            for (int i = 0; i < notesGenerated.Length; i++)
+            {
+                notesGenerated[i] = note.GenerateRandomNote(notes);
             }
         }
     }
