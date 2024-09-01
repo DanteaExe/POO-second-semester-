@@ -1,7 +1,7 @@
 namespace GuitarHero.Models
 {
     /// <summary>
-    /// Class <c>Note</c> class to generate notes randomly
+    /// Class <c>Note</c> class to generate notes
     /// </summary>
     public class Note
     {
@@ -23,7 +23,7 @@ namespace GuitarHero.Models
         }
 
         /// <summary>
-        /// Method <c>GenerateNotes</c> Generates a single note to display.
+        /// Method <c>GenerateNotes</c> Generates a single note to display. Save it in an array
         /// </summary>
         public void GenerateNotes(string[] notesGenerated)
         {

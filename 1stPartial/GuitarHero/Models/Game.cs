@@ -14,7 +14,7 @@ namespace GuitarHero.Models
         private static readonly string[] notesGenerated = new string[notesPerLevel];
         private static int currentNoteIndex = 0;
         /// <summary>
-        /// Method <c>Play</c> Play a song
+        /// Method <c>Play</c> Play a song (daaaaah)
         /// This shit was fucking difficult D:
         /// </summary>
         public void PlaySong()
@@ -26,6 +26,7 @@ namespace GuitarHero.Models
             {
                 if (i is 117)
                 {
+                    //handle loosing game
                     break;
                 }
 

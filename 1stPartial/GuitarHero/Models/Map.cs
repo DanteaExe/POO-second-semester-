@@ -41,19 +41,18 @@ namespace GuitarHero.Models
         }
         /// <summary>
         /// Method <c>AreaDelimiter</c> draws the delimiter where notes are valid.
-        /// IMPORTANT, 16 is the map limit-and it starts at 2. in y.
-        /// in X starts in 100 and finishes at 117
+        /// IMPORTANT, 16 is the map limit and it starts at 2. in y.
+        /// in X starts at 100 and finishes at 117
         /// </summary>
         public void AreaDelimiter()
         {
             WriteAt("+-----------------+", MAPSTARTX, MAPSTARTY);
-            for (int i = 2; i < 16; i++)
+            for (int i = 2; i < MAPENDY; i++)
             {
                 WriteAt("|                 |", MAPSTARTX, i);
             }
             WriteAt("+-----------------+", MAPSTARTX, MAPENDY);
         }
-
         /// <summary>
         /// Method <c>Guitar</c> That looks more like a guitar...
         /// </summary>
