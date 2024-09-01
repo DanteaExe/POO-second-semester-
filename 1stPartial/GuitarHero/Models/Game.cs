@@ -10,40 +10,49 @@ namespace GuitarHero.Models
     {
         readonly Map map = new();
         readonly Note note = new();
-        private readonly Dictionary<int, string> notes = new(){
-            {1, "Q"},
-            {2, "W"},
-            {3, "E"},
-            {4, "R"},
-            {5, "T"}
-        };
         private static readonly int notesPerLevel = 20;
         private static readonly string[] notesGenerated = new string[notesPerLevel];
+        private static int currentNoteIndex = 0;
         /// <summary>
-        /// Method <c>Play</c> Play a song and start playing
+        /// Method <c>Play</c> Play a song
+        /// This shit was fucking difficult D:
         /// </summary>
         public void PlaySong()
         {
-            GenerateNotes();
-            //for to display notes
-            for (int i = 0; i < 35; i++)
+            int i = 5;
+            note.GenerateNotes(notesGenerated);
+
+            while (currentNoteIndex < notesGenerated.Length)
             {
+                if (i is 117)
+                {
+                    break;
+                }
+
                 map.Guitar();
                 map.AreaDelimiter();
-                map.WriteAt("Q", 101, 15);
-                Sleep(1000);//seconds
+
+                int y = Note.GetYPosition(notesGenerated[currentNoteIndex]);
+
+                map.WriteAt(notesGenerated[currentNoteIndex], i, y);
+
+                if (KeyAvailable)
+                {
+                    ConsoleKeyInfo keyInfo = ReadKey(true);
+                    string keyPressed = keyInfo.Key.ToString();
+
+                    if (keyPressed.Equals(notesGenerated[currentNoteIndex], StringComparison.OrdinalIgnoreCase)
+                     && i >= map.GetMapStartX()+1 && i <= map.GetMapEndX()-1)
+                    {
+                        map.Score++;
+                        map.WriteAt(" ", i, y);
+                        currentNoteIndex++;
+                        i = 5;
+                    }
+                }
+                i++;
+                Sleep(50); // in MS
                 Clear();
-            }
-        }
-        /// <summary>
-        /// Method <c>GenerateNotes</c> we generate a single note to display. Do not ask why goes here 
-        /// and not in Note class xd
-        /// </summary>
-        private void GenerateNotes()
-        {
-            for (int i = 0; i < notesGenerated.Length; i++)
-            {
-                notesGenerated[i] = note.GenerateRandomNote(notes);
             }
         }
     }
