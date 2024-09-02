@@ -13,11 +13,3 @@
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.pdb
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.genruntimeconfig.cache
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/ref/GuitarHero.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.Asio.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.Core.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.Midi.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.Wasapi.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/bin/Debug/net8.0/NAudio.WinMM.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.csproj.AssemblyReference.cache
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/1stPartial/GuitarHero/obj/Debug/net8.0/GuitarHero.csproj.Up2Date

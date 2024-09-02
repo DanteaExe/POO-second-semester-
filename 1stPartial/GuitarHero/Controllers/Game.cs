@@ -10,8 +10,8 @@ namespace GuitarHero.Controllers
     /// </summary>
     public class Game : DrawInConsole
     {
-        readonly Map map = new();
-        readonly Note note = new();
+        private readonly Map map = new();
+        private readonly Note note = new();
         private static readonly int notesPerLevel = 20;
         private static readonly string[] notesGenerated = new string[notesPerLevel];
         private static int currentNoteIndex = 0;
@@ -19,8 +19,9 @@ namespace GuitarHero.Controllers
         /// Method <c>Play</c> Play a song (daaaaah)
         /// This shit was fucking difficult D:
         /// </summary>
-        public void PlaySong()
+        public void PlaySong(int difficulty)
         {
+            map.Score = 0;
             int i = 5;
             note.GenerateNotes(notesGenerated);
 
@@ -57,9 +58,33 @@ namespace GuitarHero.Controllers
                     }
                 }
                 i++;
-                Sleep(50); // in MS, basically how hard is this motherfucker
+                //50 easy, 25 medium, 10 hard as fuck
+                Sleep(difficulty); // in MS, basically how hard is this motherfucker
                 Clear();
             }
+        }
+        //No more documentation because is very tired D:
+        public static void ShowMainMenu()
+        {
+            WriteLine("1.- Play a song");
+            WriteLine("2.- Exit");
+        }
+        public static void ShowDifficultyMenu()
+        {
+            WriteLine("1.- I'm too young to die");
+            WriteLine("2.- Hurt me plenty");
+            WriteLine("3.- play a really heavy motherfucker :3 UwU O.o");
+        }
+        public static void ShowIstructions()
+        {
+            WriteLine("First things firts... ");
+            WriteLine("You have a valid area where you have to make sure you click the note in that area To increas your score.");
+            WriteLine("Make sure you click the correct note");
+            WriteLine("If the note goes after the valid area you loose ");
+            WriteLine("The valid notes are: Q, W, E, R, T");
+            WriteLine("Have fun :D");
+            WriteLine("Press any key to continue...");
+            ReadLine();
         }
     }
 }
