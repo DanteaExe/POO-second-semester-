@@ -64,7 +64,6 @@ do
                         WriteLine("Thanks for playing, Press any key to exit:");
                         ReadLine();
                         validDifficulty = true;
-                        validDifficulty = true;
                         break;
                 }
             } while (!validDifficulty);
