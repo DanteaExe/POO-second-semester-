@@ -34,8 +34,6 @@ do
                         WriteLine("Easy");
                         Clear();
                         game.PlaySong(50);
-                        map.Guitar();
-                        map.AreaDelimiter();
                         WriteLine();
                         WriteLine("Thanks for playing, Press any key to exit:");
                         ReadLine();
@@ -46,8 +44,6 @@ do
                         WriteLine("Medium");
                         Clear();
                         game.PlaySong(25);
-                        map.Guitar();
-                        map.AreaDelimiter();
                         WriteLine();
                         WriteLine("Thanks for playing, Press any key to exit:");
                         ReadLine();
@@ -58,8 +54,6 @@ do
                         WriteLine("Hard");
                         Clear();
                         game.PlaySong(10);
-                        map.Guitar();
-                        map.AreaDelimiter();
                         WriteLine();
                         WriteLine("Thanks for playing, Press any key to exit:");
                         ReadLine();
