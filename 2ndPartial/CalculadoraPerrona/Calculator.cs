@@ -6,10 +6,13 @@ namespace CalculadoraPerrona
     public partial class Calculator
     {
         [GeneratedRegex(@"(sin|cos|tan)\((-?\d+(\.\d+)?)\)")]
-        private static partial Regex MyRegex();
+        private static partial Regex TrigRegex();
+        
+        [GeneratedRegex(@"^(-?\d*)\s*X\s*([+-]\s*\d+)?$")]
+        private static partial Regex EquRegex();
         public static string ReplaceTrigFunctions(string expression)
         {
-            return MyRegex().Replace(expression, match =>
+            return TrigRegex().Replace(expression, match =>
             {
                 string function = match.Groups[1].Value;
                 double angle = double.Parse(match.Groups[2].Value);
@@ -38,7 +41,7 @@ namespace CalculadoraPerrona
                 throw new ArgumentException("Expression must have a sign '='");
             }
 
-            Match match = Regex.Match(sides[0].Trim(), @"^(-?\d*)\s*X\s*([+-]\s*\d+)?$");
+            Match match = EquRegex().Match(sides[0].Trim());
             if (!match.Success)
             {
                 throw new ArgumentException("Equation format was not valid, must be:  'aX + b = c'");
