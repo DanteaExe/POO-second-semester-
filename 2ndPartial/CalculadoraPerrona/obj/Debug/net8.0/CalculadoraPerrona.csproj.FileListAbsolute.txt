@@ -1,0 +1,15 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/CalculadoraPerrona
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/CalculadoraPerrona.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/CalculadoraPerrona.runtimeconfig.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/CalculadoraPerrona.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/CalculadoraPerrona.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/refint/CalculadoraPerrona.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.genruntimeconfig.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/ref/CalculadoraPerrona.dll
