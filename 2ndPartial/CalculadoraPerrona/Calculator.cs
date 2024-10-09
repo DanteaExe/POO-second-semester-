@@ -5,6 +5,7 @@ namespace CalculadoraPerrona
 {
     public partial class Calculator
     {
+        //Regex helps to analize big cuantities of text to search an specific character
         [GeneratedRegex(@"(sin|cos|tan)\((-?\d+(\.\d+)?)\)")]
         private static partial Regex TrigRegex();
         

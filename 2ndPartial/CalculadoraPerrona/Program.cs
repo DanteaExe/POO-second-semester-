@@ -33,47 +33,47 @@ switch (option)
     case "2":
         Clear();
         WriteLine("Insert the number of equations: ");
-       int numEquations = int.Parse(ReadLine()!);
+        int numEquations = int.Parse(ReadLine()!);
 
-            if (numEquations < 2 || numEquations > 10)
+        if (numEquations < 2 || numEquations > 10)
+        {
+            WriteLine("This program only solves systems of equations between 2x2 and 10x10.");
+            return;
+        }
+
+        double[,] augmentedMatrix = new double[numEquations, numEquations + 1];
+
+        WriteLine("Enter the coefficients and constants for each equation:");
+        for (int i = 0; i < numEquations; i++)
+        {
+            WriteLine($"Equation {i + 1}:");
+            for (int j = 0; j < numEquations; j++)
             {
-                WriteLine("This program only solves systems of equations between 2x2 and 10x10.");
-                return;
+                Write($"Coefficient for x{j + 1}: ");
+                augmentedMatrix[i, j] = double.Parse(ReadLine()!);
             }
+            Write("Constant term: ");
+            augmentedMatrix[i, numEquations] = double.Parse(ReadLine()!);
+        }
 
-            double[,] augmentedMatrix = new double[numEquations, numEquations + 1];
+        WriteLine();
+        WriteLine("Augmented Matrix:");
+        MatrixCalculator.PrintMatrix(augmentedMatrix);
 
-            WriteLine("Enter the coefficients and constants for each equation:");
+        double[] solutions = MatrixCalculator.GaussJordanElimination(augmentedMatrix);
+
+        if (solutions is null)
+        {
+            WriteLine("The system has no unique solution.");
+        }
+        else
+        {
+            WriteLine("The solutions are:");
             for (int i = 0; i < numEquations; i++)
             {
-                WriteLine($"Equation {i + 1}:");
-                for (int j = 0; j < numEquations; j++)
-                {
-                    Write($"Coefficient for x{j + 1}: ");
-                    augmentedMatrix[i, j] = double.Parse(ReadLine()!);
-                }
-                Write("Constant term: ");
-                augmentedMatrix[i, numEquations] = double.Parse(ReadLine()!);
+                WriteLine($"x{i + 1} = {solutions[i]}");
             }
-
-            WriteLine();
-            WriteLine("Augmented Matrix:");
-            Gauss.PrintMatrix(augmentedMatrix);
-
-            double[] solutions = Gauss.GaussJordanElimination(augmentedMatrix);
-
-            if (solutions is null)
-            {
-                WriteLine("The system has no unique solution.");
-            }
-            else
-            {
-                WriteLine("The solutions are:");
-                for (int i = 0; i < numEquations; i++)
-                {
-                    WriteLine($"x{i + 1} = {solutions[i]}");
-                }
-            }
+        }
         break;
 
     case "3":
@@ -86,9 +86,9 @@ switch (option)
         break;
 }
 
-void ShowMenu()
+static void ShowMenu()
 {
     WriteLine("1.- Simple math expretion/equation");
-    WriteLine("2.- Matrix");
+    WriteLine("2.- Get Determinant of a Matrix ");
     WriteLine("3.- Exit");
 }

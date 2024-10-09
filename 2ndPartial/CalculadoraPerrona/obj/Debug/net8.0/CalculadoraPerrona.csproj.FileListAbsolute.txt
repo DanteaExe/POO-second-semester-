@@ -13,7 +13,3 @@
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.pdb
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.genruntimeconfig.cache
 /Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/ref/CalculadoraPerrona.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/ResultPattern.dll
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/bin/Debug/net8.0/ResultPattern.pdb
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/CalculadoraPerrona.csproj.AssemblyReference.cache
-/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/Debug/net8.0/Calculad.65FEE886.Up2Date
