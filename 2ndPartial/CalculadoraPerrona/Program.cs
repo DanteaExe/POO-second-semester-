@@ -9,8 +9,6 @@ do
     WriteLine("Write the option you want: ");
     option = ReadLine();
 
-
-
     switch (option)
     {
         case "1":
