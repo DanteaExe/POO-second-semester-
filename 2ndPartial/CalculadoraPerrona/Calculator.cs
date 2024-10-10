@@ -1,4 +1,5 @@
 using System.Data;
+using System.Reflection.Metadata.Ecma335;
 using System.Text.RegularExpressions;
 
 namespace CalculadoraPerrona
@@ -8,7 +9,7 @@ namespace CalculadoraPerrona
         //Regex helps to analize big cuantities of text to search an specific character
         [GeneratedRegex(@"(sin|cos|tan)\((-?\d+(\.\d+)?)\)")]
         private static partial Regex TrigRegex();
-        
+
         [GeneratedRegex(@"^(-?\d*)\s*X\s*([+-]\s*\d+)?$")]
         private static partial Regex EquRegex();
         public static string ReplaceTrigFunctions(string expression)

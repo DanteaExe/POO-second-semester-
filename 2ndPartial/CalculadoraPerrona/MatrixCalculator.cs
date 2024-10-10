@@ -2,7 +2,7 @@ namespace CalculadoraPerrona
 {
     public class MatrixCalculator
     {
-        public static double[,] CreateMatrix(int rows, int cols)
+        private static double[,] CreateMatrix(int rows, int cols)
         {
             double[,] matrix = new double[rows, cols];
             for (int i = 0; i < rows; i++)
@@ -29,7 +29,7 @@ namespace CalculadoraPerrona
                 WriteLine();
             }
         }
-        
+
         public static double[] GaussJordanElimination(double[,] matrix)
         {
             int n = matrix.GetLength(0);
@@ -77,8 +77,9 @@ namespace CalculadoraPerrona
             return solutions;
         }
 
-        public static void SumMatrices()
+        private static void SumMatrices()
         {
+            Clear();
             Write("Write how many matrixes would you like to add: ");
             int numMatrices = int.Parse(ReadLine()!);
 
@@ -111,8 +112,9 @@ namespace CalculadoraPerrona
             PrintMatrix(result);
         }
 
-        public static void MultiplyMatrices()
+        private static void MultiplyMatrices()
         {
+            Clear();
             Write("Write how many matrixes would you like to multiply: ");
             int numMatrices = int.Parse(ReadLine()!);
 
@@ -137,8 +139,7 @@ namespace CalculadoraPerrona
                 }
                 else
                 {
-                    Write($"Add number of columns (number must be: {result!.GetLength(1)}): ");
-                    int cols = int.Parse(ReadLine()!);
+                    int cols = result!.GetLength(1);
                     double[,] matrix = CreateMatrix(result.GetLength(1), cols);
 
                     double[,] temp = new double[result.GetLength(0), cols];
@@ -164,30 +165,29 @@ namespace CalculadoraPerrona
 
         public static void RunMatrixCalculator()
         {
-            while (true)
+            Clear();
+            WriteLine("1. Sum matrixes");
+            WriteLine("2. Multiply Matrixes");
+            WriteLine("3. Exit");
+            Write("Write the option you want: ");
+
+            string choice = ReadLine()!;
+
+            switch (choice)
             {
-                WriteLine("1. Sum matrixes");
-                WriteLine("2. Multiply Matrixes");
-                WriteLine("3. Exit");
-                Write("Select and option: ");
-
-                string choice = ReadLine()!;
-
-                switch (choice)
-                {
-                    case "1":
-                        SumMatrices();
-                        break;
-                    case "2":
-                        MultiplyMatrices();
-                        break;
-                    case "3":
-                        return;
-                    default:
-                        WriteLine("That is not a valid option.");
-                        break;
-                }
+                case "1":
+                    SumMatrices();
+                    break;
+                case "2":
+                    MultiplyMatrices();
+                    break;
+                case "3":
+                    return;
+                default:
+                    WriteLine("That is not a valid option.");
+                    break;
             }
+
         }
     }
 }

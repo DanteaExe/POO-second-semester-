@@ -75,8 +75,11 @@ switch (option)
             }
         }
         break;
-
     case "3":
+        Clear();
+        MatrixCalculator.RunMatrixCalculator();
+        break;
+    case "4":
         Clear();
         WriteLine("Byeeee");
         break;
@@ -90,5 +93,6 @@ static void ShowMenu()
 {
     WriteLine("1.- Simple math expretion/equation");
     WriteLine("2.- Get Determinant of a Matrix ");
-    WriteLine("3.- Exit");
+    WriteLine("3.- Matrix Calculator");
+    WriteLine("4.- Exit");
 }
