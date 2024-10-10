@@ -3,11 +3,11 @@
 string? option;
 do
 {
-    Clear();
     ShowMenu();
     WriteLine("Write the option you want: ");
     option = ReadLine();
 
+    Clear();
     switch (option)
     {
         case "1":

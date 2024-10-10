@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraPerrona")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebb4612b4a3a21c9eb9d9e5701ce677985b4e488")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffb672272b197d4203dbb67ed86ab6e2ed46c3ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraPerrona")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraPerrona")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
