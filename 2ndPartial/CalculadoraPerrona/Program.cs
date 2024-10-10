@@ -1,7 +1,6 @@
-﻿using System.Runtime.InteropServices;
-using CalculadoraPerrona;
+﻿using CalculadoraPerrona;
 
-string? option; 
+string? option;
 do
 {
     Clear();
@@ -92,12 +91,12 @@ do
             WriteLine("That is not an option");
             break;
     }
+} while (option is not "4");
 
-    static void ShowMenu()
-    {
-        WriteLine("1.- Simple math expretion/equation");
-        WriteLine("2.- Get Determinant of a Matrix ");
-        WriteLine("3.- Matrix Calculator");
-        WriteLine("4.- Exit");
-    }
-}while(option is not "4");
+static void ShowMenu()
+{
+    WriteLine("1.- Simple math expretion/equation");
+    WriteLine("2.- Get Determinant of a Matrix ");
+    WriteLine("3.- Matrix Calculator");
+    WriteLine("4.- Exit");
+}

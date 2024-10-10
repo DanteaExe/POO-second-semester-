@@ -1,3 +1,5 @@
+using System.Reflection.PortableExecutable;
+
 namespace CalculadoraPerrona
 {
     public class MatrixCalculator
@@ -112,6 +114,41 @@ namespace CalculadoraPerrona
             PrintMatrix(result);
         }
 
+        private static void SubstractMatrices()
+        {
+            Clear();
+            Write("Write how many matrixes would you like to subsract: ");
+            int numMatrices = int.Parse(ReadLine()!);
+
+            if (numMatrices < 2)
+            {
+                WriteLine("At least 2 matrixes are nedde to make a substraction.");
+                return;
+            }
+
+            Write("Write the number of rows and columns: ");
+            int rowscols = int.Parse(ReadLine()!);
+
+            double[,] result = new double[rowscols, rowscols];
+
+            for (int k = 0; k < numMatrices; k++)
+            {
+                WriteLine($"\nAdd the matrix elements: {k + 1}:");
+                double[,] matrix = CreateMatrix(rowscols, rowscols);
+
+                for (int i = 0; i < rowscols; i++)
+                {
+                    for (int j = 0; j < rowscols; j++)
+                    {
+                        result[i, j] -= matrix[i, j];
+                    }
+                }
+            }
+
+            WriteLine("\nResult: ");
+            PrintMatrix(result);
+        }
+
         private static void MultiplyMatrices()
         {
             Clear();
@@ -166,9 +203,7 @@ namespace CalculadoraPerrona
         public static void RunMatrixCalculator()
         {
             Clear();
-            WriteLine("1. Sum matrixes");
-            WriteLine("2. Multiply Matrixes");
-            WriteLine("3. Exit");
+            ShowMenu();
             Write("Write the option you want: ");
 
             string choice = ReadLine()!;
@@ -182,12 +217,23 @@ namespace CalculadoraPerrona
                     MultiplyMatrices();
                     break;
                 case "3":
+                    SubstractMatrices();
+                    break;
+                case "4":
                     return;
                 default:
                     WriteLine("That is not a valid option.");
                     break;
             }
 
+        }
+
+        private static void ShowMenu()
+        {
+            WriteLine("1. Sum matrixes");
+            WriteLine("2. Multiply Matrixes");
+            WriteLine("3.- Substract matrixes");
+            WriteLine("4. Exit");
         }
     }
 }
