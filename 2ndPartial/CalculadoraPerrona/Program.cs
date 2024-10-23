@@ -1,4 +1,4 @@
-﻿using CalculadoraPerrona;
+using CalculadoraPerrona;
 
 string? option;
 do

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/CalculadoraPerrona.csproj",
-      "projectName": "CalculadoraPerrona",
-      "projectPath": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/CalculadoraPerrona.csproj",
+      "projectUniqueName": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/Observer/Observer.csproj",
+      "projectName": "Observer",
+      "projectPath": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/Observer/Observer.csproj",
       "packagesPath": "/Users/dantealejo/.nuget/packages/",
-      "outputPath": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/CalculadoraPerrona/obj/",
+      "outputPath": "/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/Observer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dantealejo/.nuget/NuGet/NuGet.Config"
