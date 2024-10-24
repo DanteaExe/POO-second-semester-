@@ -12,7 +12,14 @@ public class GameLoop
         {
             Clear();
             WriteLine("Enter list size, must be greater than 0:");
-            ListSize = int.Parse(ReadLine()!);
+            try
+            {
+                ListSize = int.Parse(ReadLine()!);
+            }
+            catch (Exception)
+            {
+                continue;
+            }
         } while (ListSize <= 0);
 
         while (true)

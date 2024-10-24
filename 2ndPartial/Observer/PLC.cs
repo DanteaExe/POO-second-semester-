@@ -31,14 +31,15 @@ public class PLC
             return elements[0] ? normalAlert.Notify() : errorAlert.Notify();
         }
         //check 2 trues togheter
-        bool hasAdjacentTrues = elements.Take(elements.Count - 1)
+        bool hasAdjacentTrues = elements.Take(elements.Count - 1)//take n-1 because last has no next
                                         //comapre: e actual, i next
                                        .Where((e, i) => e && elements[i + 1])
                                        //true if consecutive
                                        .Any();
-
+        
+        // count how many trues
         int trueCount = elements.Count(e => e);
-
+        //if al least one true, return normal alert otherwise...guess what uwu
         return hasAdjacentTrues || trueCount is 1 ? normalAlert.Notify() : errorAlert.Notify();
     }
 }
