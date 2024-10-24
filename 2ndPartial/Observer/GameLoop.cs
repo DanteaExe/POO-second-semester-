@@ -15,13 +15,21 @@ public class GameLoop
             ListSize = int.Parse(ReadLine()!);
         } while (ListSize <= 0);
 
-        while(true)
+        while (true)
         {
+            Clear();
             var list = plc.GenerateRandElements(new List<bool>(), ListSize);
 
             plc.PrintElements(list);
             WriteLine(plc.CheckContinuous(list));
-            //handle continue generating and close game
-        } 
+
+            if (plc.CheckContinuous(list) == errorAlert.Notify())
+            {
+                break;
+            }
+
+            WriteLine("Press any key to continue...");
+            ReadKey();
+        }
     }
 }
