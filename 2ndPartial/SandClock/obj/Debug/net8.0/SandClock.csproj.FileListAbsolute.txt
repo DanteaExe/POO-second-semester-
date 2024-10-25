@@ -1,0 +1,15 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/bin/Debug/net8.0/SandClock
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/bin/Debug/net8.0/SandClock.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/bin/Debug/net8.0/SandClock.runtimeconfig.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/bin/Debug/net8.0/SandClock.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/bin/Debug/net8.0/SandClock.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/refint/SandClock.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/SandClock.genruntimeconfig.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/2ndPartial/SandClock/obj/Debug/net8.0/ref/SandClock.dll
