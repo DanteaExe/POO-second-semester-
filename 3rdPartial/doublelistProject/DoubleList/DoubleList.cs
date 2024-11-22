@@ -16,48 +16,56 @@ public class DoubleList<T>
 
     public void Add(T item)
     {
-        Start ??= new Node<T>(item, Start, End);
-        
-        End!.next = new Node<T>(item, Start, End = End.next);
-        
+        Node<T> newNode = new(item, null, End);
+
+        if (Start is null)
+        {
+            Start = newNode;
+            End = newNode;
+        }
+
+        End!.next = newNode;
+        End = newNode;
+
         Count++;
     }
 
-    public void Remove(T item)
+
+    public void Remove()
     {
         if (Start is null)
         {
+            WriteLine("The list is empty");
             return;
         }
 
-        if (Start.value!.Equals(item))
+        if (Start == End)
         {
-            Start = Start.next;
-            Count--;
-            return;
+            Start = null;
+            End = null;
         }
 
-        Node<T>? current = Start;
-        while (current is not null)
-        {
-            if (current.next is null)
-            {
-                return;
-            }
-        }
+        End = End!.previous;
+        End!.next = null;
+
+
+        Count--;
     }
+
 
     public void ShowList()
     {
         if (Start is null)
         {
             WriteLine("The list is empty");
+            return;
         }
 
-        while (Start is not null)
+        Node<T>? current = Start;
+        while (current is not null)
         {
-            WriteLine(Start.value);
-            Start = Start.next;
+            WriteLine(current.value);
+            current = current.next;
         }
     }
 

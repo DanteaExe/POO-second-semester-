@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "doublelistprogram/1.0.0": {
+        "dependencies": {
+          "DoubleList": "1.0.0"
+        },
+        "runtime": {
+          "doublelistprogram.dll": {}
+        }
+      },
+      "DoubleList/1.0.0": {
+        "dependencies": {
+          "Node": "1.0.0"
+        },
+        "runtime": {
+          "DoubleList.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Node/1.0.0": {
+        "runtime": {
+          "Node.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "doublelistprogram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoubleList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Node/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
