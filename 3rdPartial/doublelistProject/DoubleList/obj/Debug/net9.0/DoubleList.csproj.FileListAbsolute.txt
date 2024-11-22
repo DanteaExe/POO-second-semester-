@@ -1,0 +1,6 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.csproj.AssemblyReference.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/DoubleList/obj/Debug/net9.0/DoubleList.sourcelink.json

@@ -1,0 +1,12 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/bin/Debug/net9.0/Node.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/bin/Debug/net9.0/Node.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/bin/Debug/net9.0/Node.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/refint/Node.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/Node.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/doublelistProject/Node/obj/Debug/net9.0/ref/Node.dll
