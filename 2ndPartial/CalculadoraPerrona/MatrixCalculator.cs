@@ -1,5 +1,3 @@
-using System.Reflection.PortableExecutable;
-
 namespace CalculadoraPerrona
 {
     public class MatrixCalculator
