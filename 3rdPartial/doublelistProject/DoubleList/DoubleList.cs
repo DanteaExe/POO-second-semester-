@@ -16,12 +16,13 @@ public class DoubleList<T>
 
     public void Add(T item)
     {
-        Node<T> newNode = new(item, null, End);
+        Node<T> newNode = new(item, null, null);
 
         if (Start is null)
         {
             Start = newNode;
             End = newNode;
+            return;
         }
 
         End!.next = newNode;
@@ -43,11 +44,11 @@ public class DoubleList<T>
         {
             Start = null;
             End = null;
+            return;
         }
 
-        End = End!.previous;
-        End!.next = null;
-
+        End = End!.next;
+        End = null;
 
         Count--;
     }

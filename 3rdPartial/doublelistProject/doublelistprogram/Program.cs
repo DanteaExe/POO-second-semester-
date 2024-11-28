@@ -17,3 +17,9 @@ list.Remove();
 
 list.ShowList();
 WriteLine(list.CountList());
+
+DoubleList<int> list2 = new();
+
+list2.Add(356);
+list2.Add(2);
+list2.ShowList();

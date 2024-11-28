@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoubleList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933884b4c2815a607d0e200c50cebaad15c5d939")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9532f1b9ba412633ff385ad7ef959506c9504577")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoubleList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoubleList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
