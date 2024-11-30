@@ -17,3 +17,13 @@ list.RemoveFromEnd();
 
 list.ShowList();
 WriteLine(list.CountList());
+
+WriteLine();
+list.AddToStart("Greetings");
+list.ShowList();
+WriteLine(list.CountList());
+
+list.Clear();
+
+list.ShowList();
+WriteLine(list.CountList());

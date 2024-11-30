@@ -16,6 +16,7 @@ public class DoubleList<T>
 
     public void Clear()
     {
+        WriteLine("This shit goes fucked up :D");
         Start = null;
         End = null;
         Count = 0;
