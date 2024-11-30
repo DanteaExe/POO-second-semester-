@@ -1,0 +1,16 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/bin/Debug/net9.0/listproject.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/bin/Debug/net9.0/listproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/bin/Debug/net9.0/listproject.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/bin/Debug/net9.0/Node.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/bin/Debug/net9.0/Node.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.csproj.AssemblyReference.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproj.90A45886.Up2Date
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/refint/listproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/listproject.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/listproject/List/obj/Debug/net9.0/ref/listproject.dll
