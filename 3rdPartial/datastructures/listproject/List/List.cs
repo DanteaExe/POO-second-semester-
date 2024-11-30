@@ -14,6 +14,14 @@ public class SimpleList<T>
         Count = 0;
     }
 
+    public void Clear()
+    {
+        WriteLine("The list goes to a better place");
+        Start = null;
+        End = null;
+        Count = 0;
+    }
+
     public void Add(T item)
     {
         Node<T> newNode = new(item, null, null);
@@ -22,6 +30,7 @@ public class SimpleList<T>
         {
             Start = newNode;
             End = newNode;
+            Count++;
             return;
         }
 

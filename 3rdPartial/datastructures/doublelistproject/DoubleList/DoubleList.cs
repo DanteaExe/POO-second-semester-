@@ -59,6 +59,42 @@ public class DoubleList<T>
         Count++;
     }
 
+    public void AddAtPosition(int position, T item)
+    {
+        if (position < 0 || position > Count)
+        {
+            WriteLine("Invalid position");
+            return;
+        }
+
+        if (position == 0)
+        {
+            AddToStart(item);
+            return;
+        }
+
+        if (position == Count)
+        {
+            AddToEnd(item);
+            return;
+        }
+
+        Node<T> newNode = new(item, null, null);
+        Node<T>? current = Start;
+
+        for (int i = 0; i < position - 1; i++)
+        {
+            current = current!.next;
+        }
+
+        newNode.next = current!.next;
+        newNode.previous = current;
+        current.next!.previous = newNode;
+        current.next = newNode;
+
+        Count++;
+    }
+
     public void RemoveFromEnd()
     {
         if (Start is null)

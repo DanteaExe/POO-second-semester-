@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("doublelistprogram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5fec95e2dee9f7cc49aef7868190156aed66b3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1690e0513a22441a69d7798ab5e83d35983b56c")]
 [assembly: System.Reflection.AssemblyProductAttribute("doublelistprogram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("doublelistprogram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
