@@ -22,7 +22,7 @@ public class SimpleList<T>
         Count = 0;
     }
 
-    public void Add(T item)
+    public void AddAtEnd(T item)
     {
         Node<T> newNode = new(item, null, null);
 
@@ -36,6 +36,58 @@ public class SimpleList<T>
 
         End!.next = newNode;
         End = newNode;
+
+        Count++;
+    }
+
+    public void AddFirst(T item)
+    {
+        Node<T> newNode = new(item, null, null);
+
+        if (Start is null)
+        {
+            Start = newNode;
+            End = newNode;
+        }
+        else
+        {
+            newNode.next = Start;
+            Start = newNode;
+        }
+
+        Count++;
+    }
+
+    public void AddToNthPosition(int position, T item)
+    {
+        if (position < 0 || position > Count)
+        {
+            WriteLine("Invalid position");
+            return;
+        }
+
+        if (position == 0)
+        {
+            AddFirst(item);
+            return;
+        }
+
+        if (position == Count)
+        {
+            AddAtEnd(item);
+            return;
+        }
+
+        Node<T> newNode = new(item, null, null);
+        Node<T>? current = Start;
+
+        for (int i = 0; i < position - 1; i++)
+        {
+            current = current!.next;
+        }
+
+        newNode.next = current!.next;
+        current!.next = newNode;
 
         Count++;
     }
