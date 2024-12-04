@@ -1,0 +1,16 @@
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/bin/Debug/net9.0/queueproject.deps.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/bin/Debug/net9.0/queueproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/bin/Debug/net9.0/queueproject.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/bin/Debug/net9.0/Node.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/bin/Debug/net9.0/Node.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.csproj.AssemblyReference.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.AssemblyInfoInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.AssemblyInfo.cs
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.csproj.CoreCompileInputs.cache
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.sourcelink.json
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queuepro.D44912F6.Up2Date
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/refint/queueproject.dll
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/queueproject.pdb
+/Users/dantealejo/Documents/GitHub/POO-second-semester-/3rdPartial/datastructures/queueproject/Queue/obj/Debug/net9.0/ref/queueproject.dll
